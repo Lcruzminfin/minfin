@@ -260,3 +260,22 @@ Resuelta y Cancelada son estados finales.
 
 ## Despliegue
 Para una actualización con interrupción mínima, usar al menos dos réplicas de API detrás de un reverse proxy/load balancer y actualizar gradualmente. Docker Compose incluido sirve para laboratorio/desarrollo; producción debe añadir TLS, secretos fuera del compose, backups, health checks y observabilidad.
+
+## Manejo de ramas
+Se manejan ramas:
+-DEV
+-QA
+-MAIN
+De esta manera se puede tener independencia en las configuraciones aplicables a los distintos ambientes, separando seguridad, conexiones a DB, legados.
+
+swagger Auth Login
+<img width="1027" height="563" alt="image" src="https://github.com/user-attachments/assets/a018884b-0349-47aa-ae1d-625b3037f49f" />
+
+swagger generación de token:
+<img width="1004" height="495" alt="image" src="https://github.com/user-attachments/assets/c1c30ed7-f684-457f-9fd3-0abe717df0a9" />
+
+# RabbitMQ levantado
+<img width="1329" height="588" alt="image" src="https://github.com/user-attachments/assets/44da161f-bff0-4bcf-9ab2-b2083fe50bf1" />
+
+# Diagrama de base de datos
+<img width="1126" height="910" alt="image" src="https://github.com/user-attachments/assets/e0af0d8f-235b-487e-9034-8db3e46f7bef" />
