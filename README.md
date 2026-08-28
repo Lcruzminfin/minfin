@@ -268,6 +268,17 @@ Se manejan ramas:
 -MAIN
 De esta manera se puede tener independencia en las configuraciones aplicables a los distintos ambientes, separando seguridad, conexiones a DB, legados.
 
+## CI/CD
+Se deberá de contar con planificación para integración continua y despliegue continuo para asegurar que los cambios realizados en un ambiente sean estables, se propone un pipeline de análisis de seguridad, con pruebas en kubernetes y gitlab.
+
+## Blue green
+Se propone mantener dos centros técnicos para mantener redundancia geográfica y plan de contingencia ante desastres, un nodo activo y uno pasivo, se realizarán despliegues en un nodo por vez para asegurar la estabilidad del nodo pasivo en caso el nodo activo sufra algún percance técnico.
+
+
+## Rollback
+Debe de manejarse documentación específica para deployment y rollback en dado caso que la solución no ofrezca el resultado deseado.
+El documento de Method of Procedure debe de indicar los cambios a realizar en el componente, fechas de despliegue, arquitecto de la solución, deployer quien desplegará la solución en producción, duración de la actividad, proceso de rollback.
+
 swagger Auth Login
 <img width="1027" height="563" alt="image" src="https://github.com/user-attachments/assets/a018884b-0349-47aa-ae1d-625b3037f49f" />
 
