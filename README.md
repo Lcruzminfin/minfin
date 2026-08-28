@@ -278,4 +278,5 @@ swagger generación de token:
 <img width="1329" height="588" alt="image" src="https://github.com/user-attachments/assets/44da161f-bff0-4bcf-9ab2-b2083fe50bf1" />
 
 # Diagrama de base de datos
+Propuesta para implementar sistema financiero:
 <img width="1126" height="910" alt="image" src="https://github.com/user-attachments/assets/e0af0d8f-235b-487e-9034-8db3e46f7bef" />
