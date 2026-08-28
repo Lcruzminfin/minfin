@@ -267,3 +267,7 @@ Se manejan ramas:
 -QA
 -MAIN
 De esta manera se puede tener independencia en las configuraciones aplicables a los distintos ambientes, separando seguridad, conexiones a DB, legados.
+
+swagger Auth Login
+<img width="1027" height="563" alt="image" src="https://github.com/user-attachments/assets/a018884b-0349-47aa-ae1d-625b3037f49f" />
+
