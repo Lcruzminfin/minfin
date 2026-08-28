@@ -260,3 +260,10 @@ Resuelta y Cancelada son estados finales.
 
 ## Despliegue
 Para una actualización con interrupción mínima, usar al menos dos réplicas de API detrás de un reverse proxy/load balancer y actualizar gradualmente. Docker Compose incluido sirve para laboratorio/desarrollo; producción debe añadir TLS, secretos fuera del compose, backups, health checks y observabilidad.
+
+## Manejo de ramas
+Se manejan ramas:
+-DEV
+-QA
+-MAIN
+De esta manera se puede tener independencia en las configuraciones aplicables a los distintos ambientes, separando seguridad, conexiones a DB, legados.
